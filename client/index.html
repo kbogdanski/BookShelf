@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>BookShelf</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"> </script>
+    <script src="js/app.js"> </script>
+</head>
+<body>
+    <div class="container">
+        <img src="img/head.jpg">
+        <div class="content">
+            <div class="form">
+                <div class="box">
+                    <form id="createForm">
+                        <h1> Dodaj nową książkę</h1>
+                        <label>
+                            <span>Tytuł książki :</span>
+                            <input type="text" name="name" class="input-data" id="nameInput" placeholder="Tytuł"/>
+                        </label>
+                        <label>
+                            <span>Autor :</span>
+                            <input type="text" name="author" class="input-data" id="authorInput" placeholder="Autor"/>
+                        </label>
+                        <label>
+                            <span>Ocena :</span>
+                            <input type="number" name="rating" min="1" max="10" class="input-data" id="ratingInput" placeholder="0"/>
+                        </label>
+                        <label>
+                            <span>Opis :</span>
+                            <textarea class="description-data" name="description" id="descriptionInput" placeholder="Opis książki"></textarea>
+                            <button class="button">Zapisz</button>
+                        </label>
+                    </form>
+                </div>
+            </div>
+
+            <div class="book-list">
+                <ul class="book-list-ul">
+                    <li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            Projekt na zaliczenie Warsztatów nr 3 w CodersLab.<br>
+            Autor: Kamil Bogdański. Create: 08.2016
+        </div>
+    </div>
+
+</body>
+</html>
