@@ -10,3 +10,11 @@ Projekt składa się z dwóch części:
 
 Serwer ma implementować klasę Book.<br>
 Klient ma implementować tylko stronę główną.
+
+<ul>
+<li>PHP OPP</li>
+<li>AJAX</li>
+<li>jQuery</li>
+<li>MySQL</li>
+<li>CSS - własny w celach ćwiczeniowych</li>
+</ul>
